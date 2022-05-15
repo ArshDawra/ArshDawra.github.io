@@ -10,10 +10,12 @@ border: 1px solid #000000;}
   display: flex;
   flex-flow: row;
   justify-content: flex-start;
+  list-style-type: none;
 }
 .heading{
   width: 90%;
   align-items: center;
+  list-style-type: none;
 }
 .heading h1{
 font-family: "Trirong", serif;
@@ -46,6 +48,11 @@ animation: textclip 1.5s linear infinite;
   margin-left: 4.5em;
   margin-top: 2em;
 }
+.heading img:hover {
+  -ms-transform: scale(1.05); 
+  -webkit-transform: scale(1.05); 
+  transform: scale(1.05); 
+}
 h2 {
 margin-top: 3.5em;
 font-family: "Trirong", serif;
@@ -54,6 +61,9 @@ font-size:45px;
 line-height: 93px;
 color: #FFFFFF;
 margin-left: 1.2em;
+}
+.inner {
+  list-style-type: none;
 }
 p {
 font-family: "Trirong", serif;
@@ -99,7 +109,7 @@ margin-left: 2.8em;
 .end {
   display: flex;
   justify-content: center;
-  margin-top: 3em;
+  margin-top: 2.5em;
 }
 @media all and (max-width: 800px) {
   .main {
@@ -120,8 +130,8 @@ margin-left: 2.8em;
   }
 }
 .navigation a:hover{
-  -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5); 
-  transform: scale(1.5); 
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2); 
 }
 
