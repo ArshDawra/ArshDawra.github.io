@@ -91,22 +91,6 @@ margin-left: 3.4rem;
   display:block;
   padding: 1rem;
 } 
-.navigation {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  list-style: none;
-  margin-top: 1.7rem; 
-  margin-right: 3rem;
-}
-.navigation a {
-  font-size:larger;
-  font-family: "Trirong", serif;
-  text-decoration: none;
-  display:block;
-  padding: 1rem;
-  color: white;
-}
 .end {
   display: flex;
   justify-content: center;
