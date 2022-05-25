@@ -11,7 +11,7 @@ background-image: linear-gradient(180deg, #000000 0%,rgba(108, 61, 182, 0.41) 10
   list-style-type: none;
 }
 .heading{
-  width: 90%;
+  width: 95%;
   align-items: center;
   list-style-type: none;
 }
@@ -43,7 +43,6 @@ animation: textclip 1.5s linear infinite;
   width: 23.75rem;
   height: 23.75rem;
   border-radius: 11.875rem;
-  margin-left: 4.5rem;
   margin-top: 2rem;
 }
 .heading img:hover {
@@ -58,10 +57,10 @@ font-weight:700;
 font-size:2.8125rem;
 line-height: 5.8125rem;
 color: #FFFFFF;
-margin-left: 3.6rem;
 }
 .inner {
-  list-style-type: none;
+list-style-type: none;
+align-items: center;
 }
 p {
 font-family: "Trirong", serif;
@@ -69,8 +68,6 @@ font-weight:500;
 font-size:1.25rem;
 line-height: 2.1875rem;
 color: #FFFFFF;
-width: 75%;
-margin-left: 3.4rem;
 }
 .contactme img:hover {
   -ms-transform: scale(1.5); 
@@ -80,8 +77,10 @@ margin-left: 3.4rem;
 .contactme {
   display: flex;
   flex-flow: row;
+  justify-content:left;
   list-style: none;
   margin-top: 4rem;
+  padding-left: 0px;
 } 
 .contactme img {
   min-width: 2.5rem;
@@ -101,8 +100,32 @@ margin-left: 3.4rem;
 }
 @media all and (max-width: 500px) {
   .main {
-    flex-flow: column wrap;
+    flex-flow: column;
     align-items: center;
   }
+  .heading h1{
+    font-size: 1.5rem;
+  }
+  h2{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+  .end{
+    align-items: center;
+  }
+  .heading img
+{
+  width: 21rem;
+  height: 21rem;
+  border-radius: 10.5rem;
+  margin-top: 2rem;
+}
+.contactme {
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+  justify-content: left;
+  margin-top: 4rem;
+} 
 }
 
